@@ -5,7 +5,7 @@ st.markdown("### Converts Length, Weight, Time Instantly")
 st.write("Welcome! Select a category, enter a valur and get the converted result in real-time")
 category = st.selectbox("Choose a category",["Length","Weight","Time"])
 
-st.sidebar("Unit Converter Side Bar")
+
 
 def convert_units(category, value, unit):
     if category == "Length":
