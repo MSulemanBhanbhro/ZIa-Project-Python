@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import string
 
-# Function to calculate assword strength
+# Function to calculate password strength
 def calculate_strength(password):
     length = len(password)
     if length < 8:
